@@ -1,0 +1,17 @@
+{
+  "instagram": [
+    {"metrica": "Publicaciones", "valor": 408},
+    {"metrica": "Seguidores", "valor": 257},
+    {"metrica": "Seguidos", "valor": 161}
+  ],
+  "canales": [
+    {"canal": "Sitio web", "detalle": "f12radiotv.com: periódico virtual con señal en vivo de radio y TV y resultados deportivos"},
+    {"canal": "Instagram", "detalle": "@f12radiotv: entrevistas en video a jugadores y ruedas de prensa"},
+    {"canal": "App F12radio", "detalle": "Aplicación para escuchar la emisora"},
+    {"canal": "Facebook", "detalle": "Enlazado desde el sitio web"},
+    {"canal": "YouTube", "detalle": "Enlazado desde el sitio web"},
+    {"canal": "TikTok", "detalle": "Enlazado desde el sitio web"},
+    {"canal": "X", "detalle": "Enlazado desde el sitio web"},
+    {"canal": "WhatsApp", "detalle": "Enlazado desde el sitio web"}
+  ]
+}

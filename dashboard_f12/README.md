@@ -1,6 +1,10 @@
-# Dashboard F12 Radio TV: investigación de mercados cualitativa (UNAB)
+# Dashboard F12Radio - TV: investigación de mercados cualitativa (UNAB)
 
-Plantilla del dashboard del análisis cualitativo de la marca **F12 Radio TV**.
+Plantilla del dashboard del análisis cualitativo de **F12Radio - TV** ("Fútbol con la 12"), periódico virtual y canal deportivo de Bucaramanga ([f12radiotv.com](https://www.f12radiotv.com), Instagram @f12radiotv).
+
+- `marca.json`: **datos reales** de la marca (Instagram y canales), tomados de capturas del 9 de noviembre de 2026.
+
+- `datos_ejemplo.json`: resultados del estudio.
 
 > ⚠️ `datos_ejemplo.json` contiene **datos de ejemplo** (inventados) solo para ver la estructura.
 > Reemplácelos por los resultados reales del grupo.
