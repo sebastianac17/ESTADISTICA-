@@ -1,0 +1,52 @@
+{
+  "tecnicas": [
+    {"tecnica": "Focus group", "sesiones": 2, "participantes": 16, "duracion_min": 90},
+    {"tecnica": "Entrevista a profundidad", "sesiones": 6, "participantes": 6, "duracion_min": 45},
+    {"tecnica": "Observación / netnografía", "sesiones": 3, "participantes": 0, "duracion_min": 60}
+  ],
+  "perfiles": [
+    {"perfil": "Oyente / televidente frecuente", "participantes": 9},
+    {"perfil": "Consumidor ocasional", "participantes": 8},
+    {"perfil": "No consumidor", "participantes": 5}
+  ],
+  "categorias": [
+    {"categoria": "Contenido y programación", "positivas": 14, "neutras": 6, "negativas": 5},
+    {"categoria": "Presentadores y cercanía", "positivas": 12, "neutras": 3, "negativas": 2},
+    {"categoria": "Identidad regional", "positivas": 10, "neutras": 4, "negativas": 1},
+    {"categoria": "Presencia digital y redes", "positivas": 5, "neutras": 5, "negativas": 9},
+    {"categoria": "Calidad técnica (audio / video)", "positivas": 3, "neutras": 4, "negativas": 7},
+    {"categoria": "Publicidad", "positivas": 2, "neutras": 3, "negativas": 6}
+  ],
+  "asociaciones": [
+    {"palabra": "Cercana", "menciones": 11},
+    {"palabra": "Local", "menciones": 10},
+    {"palabra": "Música", "menciones": 8},
+    {"palabra": "Joven", "menciones": 6},
+    {"palabra": "Informativa", "menciones": 5},
+    {"palabra": "Poco conocida", "menciones": 5},
+    {"palabra": "Entretenida", "menciones": 4},
+    {"palabra": "Improvisada", "menciones": 3}
+  ],
+  "verbatims": [
+    {"id": "V1", "categoria": "Presentadores y cercanía", "sentimiento": "Positivo", "perfil": "Oyente / televidente frecuente", "cita": "Se siente como si uno estuviera hablando con amigos del barrio."},
+    {"id": "V2", "categoria": "Presencia digital y redes", "sentimiento": "Negativo", "perfil": "Consumidor ocasional", "cita": "Los busqué en Instagram y casi no publican, no sabía qué estaban pasando."},
+    {"id": "V3", "categoria": "Identidad regional", "sentimiento": "Positivo", "perfil": "Oyente / televidente frecuente", "cita": "Hablan de lo que pasa en Bucaramanga, eso no lo encuentro en las emisoras grandes."},
+    {"id": "V4", "categoria": "Calidad técnica (audio / video)", "sentimiento": "Negativo", "perfil": "No consumidor", "cita": "Vi un pedazo del en vivo y el sonido se cortaba."},
+    {"id": "V5", "categoria": "Contenido y programación", "sentimiento": "Neutro", "perfil": "Consumidor ocasional", "cita": "No tengo claro a qué hora pasan cada programa."}
+  ],
+  "dofa": [
+    {"tipo": "Fortaleza", "punto": "Cercanía con la audiencia y tono regional"},
+    {"tipo": "Fortaleza", "punto": "Formato híbrido radio + TV"},
+    {"tipo": "Debilidad", "punto": "Baja actividad en redes sociales"},
+    {"tipo": "Debilidad", "punto": "Calidad técnica irregular en transmisiones"},
+    {"tipo": "Oportunidad", "punto": "Audiencia joven que consume contenido en video corto"},
+    {"tipo": "Oportunidad", "punto": "Alianzas con comercio y eventos locales"},
+    {"tipo": "Amenaza", "punto": "Plataformas de streaming y podcasts"},
+    {"tipo": "Amenaza", "punto": "Medios regionales con más inversión"}
+  ],
+  "insights": [
+    {"n": 1, "insight": "La audiencia valora sentirse representada por un medio de su ciudad.", "recomendacion": "Reforzar secciones con historias y voces de barrios de Bucaramanga."},
+    {"n": 2, "insight": "Quien no conoce la marca no la encuentra en redes.", "recomendacion": "Calendario de publicaciones con clips cortos del en vivo."},
+    {"n": 3, "insight": "Los problemas técnicos generan abandono del en vivo.", "recomendacion": "Revisar audio y conexión antes de cada transmisión."}
+  ]
+}
