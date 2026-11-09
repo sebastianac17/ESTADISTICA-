@@ -1,17 +1,158 @@
 {
   "instagram": [
-    {"metrica": "Publicaciones", "valor": 408},
-    {"metrica": "Seguidores", "valor": 257},
-    {"metrica": "Seguidos", "valor": 161}
+    {
+      "metrica": "Publicaciones",
+      "valor": 408
+    },
+    {
+      "metrica": "Seguidores",
+      "valor": 257
+    },
+    {
+      "metrica": "Seguidos",
+      "valor": 161
+    }
   ],
   "canales": [
-    {"canal": "Sitio web", "detalle": "f12radiotv.com: periódico virtual con señal en vivo de radio y TV y resultados deportivos"},
-    {"canal": "Instagram", "detalle": "@f12radiotv: entrevistas en video a jugadores y ruedas de prensa"},
-    {"canal": "App F12radio", "detalle": "Aplicación para escuchar la emisora"},
-    {"canal": "Facebook", "detalle": "Enlazado desde el sitio web"},
-    {"canal": "YouTube", "detalle": "Enlazado desde el sitio web"},
-    {"canal": "TikTok", "detalle": "Enlazado desde el sitio web"},
-    {"canal": "X", "detalle": "Enlazado desde el sitio web"},
-    {"canal": "WhatsApp", "detalle": "Enlazado desde el sitio web"}
+    {
+      "canal": "Portal web f12radiotv.com",
+      "detalle": "Noticias de fútbol local, nacional e internacional, resultados, señal en vivo y parrilla de programación"
+    },
+    {
+      "canal": "App F12radiotv",
+      "detalle": "Radio \"24 Horas de Música y Deporte\", gratis en Android e iOS"
+    },
+    {
+      "canal": "Facebook @F12RADIOTV",
+      "detalle": "Programas deportivos, transmisiones en vivo y noticias"
+    },
+    {
+      "canal": "YouTube @F12radiotv",
+      "detalle": "Programas, transmisiones, ruedas de prensa y análisis"
+    },
+    {
+      "canal": "Instagram @f12radiotv",
+      "detalle": "Entrevistas en video a jugadores y ruedas de prensa"
+    },
+    {
+      "canal": "X @F12radiotv",
+      "detalle": "Información inmediata desde el lugar de los hechos"
+    },
+    {
+      "canal": "TikTok @F12radiotv",
+      "detalle": "Videos cortos de entrevistas y opiniones de los protagonistas"
+    },
+    {
+      "canal": "WhatsApp",
+      "detalle": "Línea de contacto con la audiencia"
+    },
+    {
+      "canal": "Convenios",
+      "detalle": "Páginas y canales aliados en otras regiones para llegar a más audiencia"
+    }
+  ],
+  "parrilla": [
+    {
+      "programa": "FUTBOLCONLA12",
+      "descripcion": "Información nacional del fútbol y el deporte",
+      "dia": "Lun",
+      "hora": "11:00"
+    },
+    {
+      "programa": "FUTBOLCONLA12",
+      "descripcion": "Información nacional del fútbol y el deporte",
+      "dia": "Mié",
+      "hora": "11:00"
+    },
+    {
+      "programa": "FUTBOLCONLA12",
+      "descripcion": "Información nacional del fútbol y el deporte",
+      "dia": "Vie",
+      "hora": "11:00"
+    },
+    {
+      "programa": "F12BUCARO",
+      "descripcion": "Actualidad del Atlético Bucaramanga",
+      "dia": "Mar",
+      "hora": "11:00"
+    },
+    {
+      "programa": "F12BUCARO",
+      "descripcion": "Actualidad del Atlético Bucaramanga",
+      "dia": "Jue",
+      "hora": "11:00"
+    },
+    {
+      "programa": "F12FEMENINO",
+      "descripcion": "Fútbol femenino nacional e internacional",
+      "dia": "Mar",
+      "hora": "18:00"
+    },
+    {
+      "programa": "F12 LA LIBRETA ROJA",
+      "descripcion": "Actualidad del Deportivo Independiente Medellín",
+      "dia": "Mié",
+      "hora": "18:00"
+    },
+    {
+      "programa": "AL DÍA CON JORGE DÍAZ",
+      "descripcion": "Equipos del Valle del Cauca",
+      "dia": "Mar",
+      "hora": "08:00"
+    },
+    {
+      "programa": "TRANSMISIONES DE FÚTBOL",
+      "descripcion": "Liga BetPlay desde los estadios del país",
+      "dia": "Sáb",
+      "hora": "12:00"
+    },
+    {
+      "programa": "TRANSMISIONES DE FÚTBOL",
+      "descripcion": "Liga BetPlay desde los estadios del país",
+      "dia": "Dom",
+      "hora": "12:00"
+    }
+  ],
+  "equipo": [
+    {
+      "nombre": "Edgar Herrera",
+      "rol": "Director de F12Radiotv y Futbolconla12 Colombia",
+      "ciudad": "Bucaramanga"
+    },
+    {
+      "nombre": "José Leonardo Lozada",
+      "rol": "Periodista deportivo, comentarista y narrador",
+      "ciudad": "Bucaramanga"
+    },
+    {
+      "nombre": "Alexis Mora",
+      "rol": "Director comercial, analista y comentarista (sección El Humo de Alexis)",
+      "ciudad": "Bucaramanga"
+    },
+    {
+      "nombre": "Diego Cabrera",
+      "rol": "Analista y comentarista",
+      "ciudad": "Bucaramanga"
+    },
+    {
+      "nombre": "Neider Caro",
+      "rol": "Director y comentarista regional",
+      "ciudad": "Bogotá"
+    },
+    {
+      "nombre": "Santiago Barrera",
+      "rol": "Director y comentarista regional",
+      "ciudad": "Medellín"
+    },
+    {
+      "nombre": "Andrés Tobón",
+      "rol": "Periodista deportivo, comentarista y analista",
+      "ciudad": "Medellín"
+    },
+    {
+      "nombre": "Jorge Díaz",
+      "rol": "Director y comentarista regional",
+      "ciudad": "Cali"
+    }
   ]
 }

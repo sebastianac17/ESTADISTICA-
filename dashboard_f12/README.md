@@ -2,7 +2,7 @@
 
 Plantilla del dashboard del análisis cualitativo de **F12Radio - TV** ("Fútbol con la 12"), periódico virtual y canal deportivo de Bucaramanga ([f12radiotv.com](https://www.f12radiotv.com), Instagram @f12radiotv).
 
-- `marca.json`: **datos reales** de la marca (Instagram y canales), tomados de capturas del 9 de noviembre de 2026.
+- `marca.json`: **datos reales** de la marca (Instagram, canales, parrilla de programación y equipo), tomados de f12radiotv.com y de Instagram el 9 de noviembre de 2026.
 
 - `datos_ejemplo.json`: resultados del estudio.
 
