@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3D3120">
+  <title>¿Quién da más? · Mercagán</title>
+  <link rel="icon" href="/assets/logo-mercagan.png">
+  <link rel="stylesheet" href="/css/brand.css">
+  <link rel="stylesheet" href="/css/jugar.css">
+</head>
+<body>
+  <header class="band topbar">
+    <img class="logo" src="/assets/logo-mercagan.png" alt="Mercagán Parrilla" width="44" height="45">
+    <div class="brand">¿Quién da más?<small>Subasta en vivo</small></div>
+    <div class="spacer"></div>
+    <div class="me-chip" id="meChip" hidden>
+      <span id="meName"></span>
+      <strong class="money" id="meBalance"></strong>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- 1. Entrada -->
+    <section id="view-join" class="view">
+      <div class="hero">
+        <img class="hero-logo" src="/assets/logo-mercagan.png" alt="Mercagán Parrilla" width="150" height="154">
+        <h1 class="hero-title">¿Quién da más?</h1>
+        <p class="hero-sub">La subasta de Mercagán. Arma tu equipo, levanta la paleta y que gane el que más da.</p>
+      </div>
+      <form id="joinForm" class="card" autocomplete="off">
+        <label for="teamName" class="label">Nombre de tu equipo</label>
+        <input id="teamName" type="text" maxlength="24" minlength="2" placeholder="Ej: Los del Tejar" required>
+        <p class="form-error" id="joinError" role="alert"></p>
+        <button class="btn block" type="submit" id="joinBtn">Entrar a la sala</button>
+      </form>
+    </section>
+
+    <!-- 2. Sala de espera -->
+    <section id="view-wait" class="view" hidden>
+      <div class="paddle" id="waitPaddle"></div>
+      <h2 class="big-title">¡Listo, <span id="waitName"></span>!</h2>
+      <p class="lead">Esperando a que empiece la subasta…</p>
+      <div class="card stat-card">
+        <div><span class="muted">Tu saldo</span><strong class="money xl" id="waitBalance"></strong></div>
+        <div><span class="muted">Equipos en la sala</span><strong class="money xl" id="waitTeams"></strong></div>
+      </div>
+      <p class="tip">Cada equipo arranca con $2.000.000 imaginarios. Lo que gastes no vuelve: adminístralo bien para las 5 rondas.</p>
+    </section>
+
+    <!-- 3a. Intro de ronda / sin ofertas -->
+    <section id="view-intro" class="view" hidden>
+      <div class="lot-tag lot-big" id="introLot"></div>
+      <p class="attempt" id="introAttempt" hidden></p>
+      <div class="card prize-card">
+        <span class="muted">Se subasta</span>
+        <h2 id="introPrize"></h2>
+        <p>Precio base <strong class="money" id="introBase"></strong></p>
+      </div>
+      <p class="lead" id="introMsg">Prepárate: la subasta abre en un momento.</p>
+    </section>
+
+    <!-- 3b. Subasta -->
+    <section id="view-auction" class="view" hidden>
+      <div class="auction-head">
+        <div class="lot-tag" id="aucLot"></div>
+        <span class="prize-name" id="aucPrize"></span>
+      </div>
+      <div class="timer" id="aucTimer">60</div>
+      <div class="card current">
+        <span class="muted" id="aucCurrentLabel">Oferta actual</span>
+        <strong class="money current-amount" id="aucAmount">—</strong>
+        <span class="leader" id="aucLeader">Nadie ha ofertado todavía</span>
+      </div>
+      <div class="status" id="aucStatus" hidden></div>
+      <div class="quick" id="quickBids"></div>
+      <form class="custom" id="customForm" autocomplete="off">
+        <input id="customAmount" type="text" inputmode="numeric" placeholder="Otro monto">
+        <button class="btn wood" type="submit" id="customBtn">Ofertar</button>
+      </form>
+      <p class="hint" id="aucHint"></p>
+    </section>
+
+    <!-- 4. Subasta cerrada / pregunta -->
+    <section id="view-answer" class="view" hidden>
+      <div class="lot-tag" id="ansLot"></div>
+      <div id="ansWinner" hidden>
+        <h2 class="big-title">¡Ganaste la puja!</h2>
+        <p class="lead">Responde en voz alta a tus presentadores.</p>
+        <div class="card question-card">
+          <p class="question-text" id="ansQuestion">Esperen la pregunta…</p>
+          <div class="timer small" id="ansTimer"></div>
+        </div>
+        <p class="hint">Tu oferta: <strong class="money" id="ansAmount"></strong>. Solo se descuenta si responden bien.</p>
+      </div>
+      <div id="ansOther" hidden>
+        <h2 class="big-title" id="ansOtherTitle"></h2>
+        <p class="lead" id="ansOtherSub"></p>
+        <div class="timer small" id="ansOtherTimer"></div>
+      </div>
+    </section>
+
+    <!-- 5a. Vendido -->
+    <section id="view-sold" class="view" hidden>
+      <div id="soldStage" class="sold-stage"></div>
+      <div class="stamp-holder"><span class="stamp" id="soldStamp">¡VENDIDO!</span></div>
+      <div class="card center" id="soldCard">
+        <p id="soldLine1" class="sold-line"></p>
+        <p id="soldLine2" class="muted"></p>
+      </div>
+    </section>
+
+    <!-- 5b. Anulada -->
+    <section id="view-annulled" class="view" hidden>
+      <div id="annulStage" class="sold-stage"></div>
+      <h2 class="big-title red-text">Subasta anulada: se repite</h2>
+      <p class="lead" id="annulMsg"></p>
+    </section>
+
+    <!-- 6. Final -->
+    <section id="view-finished" class="view" hidden>
+      <h2 class="big-title">¡Se cerró el remate!</h2>
+      <div class="card summary">
+        <div><span class="muted">Premios</span><strong class="money xl" id="finPrizes"></strong></div>
+        <div><span class="muted">Gastaste</span><strong class="money xl" id="finSpent"></strong></div>
+        <div><span class="muted">Saldo</span><strong class="money xl" id="finBalance"></strong></div>
+      </div>
+      <h3 class="section-title">Así quedaron los lotes</h3>
+      <ol class="podium-list" id="finSales"></ol>
+      <h3 class="section-title">Ranking</h3>
+      <ol class="rank-list" id="finRanking"></ol>
+      <p class="tagline">Aquí siempre te dan más.</p>
+    </section>
+
+    <!-- Expulsado / sesión en otro dispositivo -->
+    <section id="view-out" class="view" hidden>
+      <h2 class="big-title" id="outTitle">Quedaste por fuera</h2>
+      <p class="lead" id="outMsg"></p>
+      <button class="btn" id="outBtn" type="button">Volver a entrar</button>
+    </section>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/jugar.js"></script>
+</body>
+</html>

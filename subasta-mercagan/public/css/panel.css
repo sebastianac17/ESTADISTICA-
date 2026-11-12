@@ -1,0 +1,69 @@
+/* ===== Panel del presentador ===== */
+.topbar { position: sticky; top: 0; z-index: 10; flex-wrap: wrap; }
+.status-line { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-weight: 800; }
+.status-line .pill { background: var(--wood-dark); color: var(--yellow); font-size: 14px; }
+.conn { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+
+.pin-view { display: grid; place-items: center; min-height: 80vh; padding: 16px; }
+.pin-card { width: min(360px, 100%); display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; }
+.pin-card input { text-align: center; letter-spacing: 6px; }
+.form-error { color: var(--red); font-weight: 800; min-height: 1.2em; margin: 0; }
+
+.panel { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(320px, 1fr); gap: 16px; padding: 16px; max-width: 1400px; margin: 0 auto; }
+.panel .warn { grid-column: 1 / -1; background: var(--red); color: var(--bone); padding: 10px 14px; border-radius: 10px; font-weight: 800; }
+.col { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card h3 { font-size: 18px; color: var(--wood-dark); margin-bottom: 10px; display: flex; gap: 8px; align-items: center; }
+
+.stage { display: flex; flex-direction: column; gap: 12px; }
+.stage-head { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.stage-head .prize { font-weight: 900; font-size: 18px; flex: 1; }
+.level { background: var(--grass) !important; color: var(--bone); }
+.level.alta { background: var(--red) !important; }
+.stage-msg { font-size: 18px; font-weight: 800; margin: 0; }
+.stage-big { font-family: var(--font-title); font-size: 44px; color: var(--wood-dark); line-height: 1.1; overflow-wrap: anywhere; }
+.stage-big:empty { display: none; }
+
+.answer-box { border: 3px dashed var(--wood); border-radius: 12px; padding: 12px; background: #fffdf3; }
+.q-team { margin: 0 0 6px; font-size: 16px; }
+.q-text { font-size: 20px; font-weight: 900; margin: 0 0 10px; }
+.expected { background: #fff2b8; border-left: 6px solid var(--yellow); border-radius: 8px; padding: 10px 12px; }
+.expected h4 { margin: 4px 0; color: var(--wood); font-family: var(--font-body); font-weight: 900; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; display: flex; gap: 8px; align-items: center; }
+.expected p { margin: 0 0 8px; font-size: 17px; font-weight: 700; }
+
+.primary-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.primary-actions .btn { font-size: 24px; padding: 18px 26px; flex: 1; min-width: 200px; }
+.primary-actions .btn.secondary-act { flex: 0 1 auto; font-size: 16px; min-width: 0; padding: 12px 16px; }
+.kbd-hint { margin: 0; font-size: 12px; color: var(--muted); }
+kbd { background: var(--wood-dark); color: var(--bone); border-radius: 4px; padding: 1px 6px; font-size: 11px; }
+
+.sec-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+.sec-buttons .btn.ghost { color: var(--wood-dark); text-decoration: none; }
+.small-text { font-size: 13px; margin: 10px 0 0; overflow-wrap: anywhere; }
+
+.sales { margin: 0; padding-left: 20px; font-weight: 700; }
+.sales:empty::before { content: 'Todavía no hay ventas.'; color: var(--muted); font-weight: 600; margin-left: -20px; }
+
+.teams-table-wrap { max-height: 50vh; overflow: auto; }
+.teams { width: 100%; border-collapse: collapse; font-size: 14px; }
+.teams th { text-align: left; color: var(--muted); font-size: 12px; position: sticky; top: 0; background: var(--cream); }
+.teams td { padding: 6px 4px; border-top: 1px solid rgba(98,68,39,.25); vertical-align: middle; }
+.teams td.name { font-weight: 800; overflow-wrap: anywhere; }
+.teams td.actions { white-space: nowrap; text-align: right; }
+.teams td.actions button { font-size: 12px; padding: 4px 8px; margin-left: 4px; }
+.teams tr.leader { background: rgba(100,117,68,.18); }
+
+.log { margin: 0; padding: 0; list-style: none; max-height: 40vh; overflow: auto; font-size: 13px; font-family: ui-monospace, Consolas, monospace; display: flex; flex-direction: column; }
+.log li { padding: 3px 0; border-bottom: 1px dotted rgba(98,68,39,.25); }
+.log li time { color: var(--muted); margin-right: 6px; }
+.log li.verdict { font-weight: 800; color: var(--red-dark); }
+.log li.phase { color: var(--grass); font-weight: 800; }
+
+.dialog { max-width: 440px; width: 92vw; }
+.dialog::backdrop { background: rgba(0,0,0,.6); }
+.dialog form { display: flex; flex-direction: column; gap: 10px; }
+.dialog-actions { justify-content: flex-end; }
+
+@media (max-width: 900px) {
+  .panel { grid-template-columns: 1fr; padding: 10px; }
+  .primary-actions .btn { min-width: 140px; font-size: 20px; }
+}

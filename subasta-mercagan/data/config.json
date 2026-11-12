@@ -1,0 +1,21 @@
+{
+  "hostPin": "1234",
+  "rounds": 5,
+  "startingBalance": 2000000,
+  "basePrice": 100000,
+  "minIncrement": 50000,
+  "quickBids": [50000, 100000, 200000],
+  "customBidStep": 10000,
+  "auctionSeconds": 60,
+  "questionSeconds": 60,
+  "maxTeams": 60,
+  "showBalancesOnProjector": true,
+  "difficultyByRound": ["facil", "facil", "facil", "alta", "alta"],
+  "prizes": [
+    { "round": 1, "name": "PREMIO 1 (cámbialo)", "imageUrl": null },
+    { "round": 2, "name": "PREMIO 2 (cámbialo)", "imageUrl": null },
+    { "round": 3, "name": "PREMIO 3 (cámbialo)", "imageUrl": null },
+    { "round": 4, "name": "PREMIO 4 (cámbialo)", "imageUrl": null },
+    { "round": 5, "name": "PREMIO 5 (cámbialo)", "imageUrl": null }
+  ]
+}
