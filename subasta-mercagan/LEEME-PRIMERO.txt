@@ -1,0 +1,24 @@
+¿QUIÉN DA MÁS? · Subasta de Mercagán
+====================================
+
+1. Haz doble clic en INICIAR-SUBASTA.bat
+   - Si Windows dice "Windows protegió su PC": Más información -> Ejecutar de todas formas.
+   - Si sale el aviso del Firewall: marca las casillas y pulsa "Permitir acceso".
+     (Sin esto los celulares no pueden entrar.)
+   No hay que instalar nada: Node.js ya viene incluido.
+
+2. NO cierres la ventana negra mientras juegan.
+
+3. En el navegador del PC abre:
+   Proyector:  http://localhost:3000/proyector   (pulsa "Activar sonido" y la tecla F)
+   Panel:      http://localhost:3000/panel       (PIN: 1234)
+
+4. Los celulares escanean el QR del proyector. Deben estar en la MISMA red WiFi
+   que el PC. Si no cargan, comparte internet desde un celular (hotspot) y conecta
+   a esa red el PC y a todos.
+
+Premios y PIN: abre data\config.json con el Bloc de notas, cambia los nombres de
+"PREMIO 1 (cámbialo)" etc. y "hostPin", guarda y vuelve a abrir el .bat.
+
+Antes de la clase: ensaya una ronda con 2-3 celulares y luego en el panel usa
+"Reiniciar juego" para dejarlo limpio. Más detalles en README.md.
