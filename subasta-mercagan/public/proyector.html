@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyector · ¿Quién da más? · Mercagán</title>
+  <link rel="icon" href="/assets/logo-mercagan.png">
+  <link rel="stylesheet" href="/css/brand.css">
+  <link rel="stylesheet" href="/css/proyector.css">
+</head>
+<body>
+  <div class="screen" id="screen">
+    <header class="band pj-head">
+      <img class="logo" src="/assets/logo-mercagan.png" alt="Mercagán Parrilla" width="192" height="197">
+      <div class="pj-brand">
+        <span class="pj-word">mercagán</span>
+        <span class="pj-title">¿Quién da más?</span>
+      </div>
+      <div class="spacer"></div>
+      <div class="lot-tag pj-lot" id="hLot" hidden></div>
+      <div class="pj-room" id="hRoom"></div>
+      <button class="mute" id="muteBtn" type="button" title="Silenciar (M)">🔊</button>
+    </header>
+
+    <main class="pj-main">
+      <!-- Lobby -->
+      <section class="pj-view lobby" id="v-lobby">
+        <div class="qr-box">
+          <img id="qrImg" alt="Código QR para entrar al juego">
+          <p class="qr-url" id="qrUrl"></p>
+          <p class="qr-code">Código de sala <strong id="roomCode"></strong></p>
+        </div>
+        <div class="lobby-side">
+          <h1 class="lobby-title">Escanea, ponle nombre a tu equipo y levanta la paleta</h1>
+          <p class="lobby-count"><strong id="teamCount">0</strong> <span id="teamCountLabel">equipos listos</span></p>
+          <ul class="team-cloud" id="teamCloud"></ul>
+          <p class="lobby-note">Conéctate al mismo WiFi de este computador.</p>
+        </div>
+      </section>
+
+      <!-- Intro de ronda / sin ofertas -->
+      <section class="pj-view intro" id="v-intro" hidden>
+        <div class="intro-lot" id="iLot"></div>
+        <p class="intro-attempt" id="iAttempt" hidden></p>
+        <img class="intro-img" id="iImg" alt="" hidden>
+        <h1 class="intro-prize" id="iPrize"></h1>
+        <p class="intro-base">Precio base <span class="money" id="iBase"></span></p>
+        <p class="intro-level" id="iLevel"></p>
+      </section>
+
+      <section class="pj-view nobids" id="v-nobids" hidden>
+        <h1 class="huge-msg">Sin ofertas</h1>
+        <p class="sub-msg">¿Nadie da nada? Ya mismo reabrimos la subasta del <span id="nbLot"></span>.</p>
+      </section>
+
+      <!-- Subasta -->
+      <section class="pj-view auction" id="v-auction" hidden>
+        <div class="auc-left">
+          <div class="ring" id="aRing">
+            <svg viewBox="0 0 200 200">
+              <circle class="ring-bg" cx="100" cy="100" r="88"/>
+              <circle class="ring-fg" id="aRingFg" cx="100" cy="100" r="88"/>
+            </svg>
+            <span class="ring-num" id="aSec">60</span>
+          </div>
+          <p class="auc-prize" id="aPrize"></p>
+        </div>
+        <div class="auc-center">
+          <p class="auc-label" id="aLabel">Oferta más alta</p>
+          <div class="auc-amount money" id="aAmount">—</div>
+          <div class="auc-leader" id="aLeader"></div>
+          <ol class="history" id="aHistory"></ol>
+        </div>
+        <aside class="auc-side" id="aSide">
+          <h3>Saldos</h3>
+          <ol class="balances" id="aBalances"></ol>
+        </aside>
+      </section>
+
+      <!-- Subasta cerrada -->
+      <section class="pj-view closed" id="v-closed" hidden>
+        <div class="closed-gavel" id="cStage"></div>
+        <h1 class="closed-title">Adjudicado a <span id="cTeam"></span></h1>
+        <p class="closed-sub">por <span class="money" id="cAmount"></span>… si responde bien.</p>
+      </section>
+
+      <!-- Pregunta -->
+      <section class="pj-view question" id="v-question" hidden>
+        <div class="q-top">
+          <div class="q-team">Responde <strong id="qTeam"></strong></div>
+          <div class="ring small" id="qRing">
+            <svg viewBox="0 0 200 200">
+              <circle class="ring-bg" cx="100" cy="100" r="88"/>
+              <circle class="ring-fg" id="qRingFg" cx="100" cy="100" r="88"/>
+            </svg>
+            <span class="ring-num" id="qSec">60</span>
+          </div>
+        </div>
+        <div class="card q-card"><p id="qText"></p></div>
+        <p class="q-timeup" id="qTimeUp" hidden>¡Se acabó el tiempo!</p>
+      </section>
+
+      <!-- Vendido -->
+      <section class="pj-view sold" id="v-sold" hidden>
+        <div class="sold-stage" id="sStage"></div>
+        <div class="sold-stamp-row"><span class="stamp" id="sStamp">¡VENDIDO!</span></div>
+        <div class="sold-info">
+          <span class="sold-team" id="sTeam"></span>
+          <span class="sold-amount money" id="sAmount"></span>
+          <span class="sold-prize" id="sPrize"></span>
+        </div>
+      </section>
+
+      <!-- Anulada -->
+      <section class="pj-view annulled" id="v-annulled" hidden>
+        <div class="sold-stage" id="nStage"></div>
+        <h1 class="huge-msg red">Subasta anulada: ¡se repite!</h1>
+        <p class="sub-msg" id="nMsg"></p>
+      </section>
+
+      <!-- Podio -->
+      <section class="pj-view podium" id="v-podium" hidden>
+        <h1 class="podium-title">Así se remató todo</h1>
+        <div class="podium-grid">
+          <ol class="lots" id="pLots"></ol>
+          <div class="ranking card">
+            <h3>Ranking final</h3>
+            <ol id="pRanking"></ol>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="band pj-foot">Aquí siempre te dan más · #QuiénDaMás</footer>
+  </div>
+
+  <div class="sound-gate" id="soundGate">
+    <div class="card gate-card">
+      <img src="/assets/logo-mercagan.png" alt="" width="192" height="197">
+      <h2>Pantalla del proyector</h2>
+      <p>Toca el botón para activar el sonido. Pulsa <kbd>F</kbd> para pantalla completa y <kbd>M</kbd> para silenciar.</p>
+      <button class="btn" id="soundBtn" type="button">Activar sonido</button>
+      <button class="btn ghost small" id="noSoundBtn" type="button">Seguir sin sonido</button>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/proyector.js"></script>
+</body>
+</html>

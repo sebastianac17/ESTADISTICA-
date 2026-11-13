@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3D3120">
+  <title>Panel del presentador · ¿Quién da más?</title>
+  <link rel="icon" href="/assets/logo-mercagan.png">
+  <link rel="stylesheet" href="/css/brand.css">
+  <link rel="stylesheet" href="/css/panel.css">
+</head>
+<body>
+  <header class="band topbar">
+    <img class="logo" src="/assets/logo-mercagan.png" alt="Mercagán Parrilla" width="44" height="45">
+    <div class="brand">Panel del presentador<small>¿Quién da más? · Mercagán</small></div>
+    <div class="spacer"></div>
+    <div class="status-line">
+      <span class="pill" id="hPhase">—</span>
+      <span class="pill" id="hRound"></span>
+      <span class="pill" id="hTimer"></span>
+      <span class="conn"><span class="dot" id="hDot"></span> <span id="hConn">Sin conexión</span></span>
+    </div>
+  </header>
+
+  <!-- PIN -->
+  <section id="pinView" class="pin-view">
+    <form class="card pin-card" id="pinForm" autocomplete="off">
+      <img src="/assets/logo-mercagan.png" alt="" width="96" height="99">
+      <h2>Entrar al panel</h2>
+      <input id="pinInput" type="password" inputmode="numeric" placeholder="PIN" autofocus>
+      <p class="form-error" id="pinError"></p>
+      <button class="btn" type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <main id="panel" class="panel" hidden>
+    <div class="warn" id="pinWarn" hidden>Estás usando el PIN de fábrica (1234). Cámbialo en <code>data/config.json</code> → <code>"hostPin"</code> antes de la exposición.</div>
+
+    <section class="col main-col">
+      <div class="card stage">
+        <div class="stage-head">
+          <div class="lot-tag" id="sLot">Lote</div>
+          <span class="prize" id="sPrize"></span>
+          <span class="pill level" id="sLevel"></span>
+        </div>
+        <p class="stage-msg" id="sMsg"></p>
+        <div class="stage-big" id="sBig"></div>
+
+        <div class="answer-box" id="answerBox" hidden>
+          <p class="q-team">Responde: <strong id="qTeam"></strong> · oferta <strong class="money" id="qAmount"></strong></p>
+          <p class="q-text" id="qText"></p>
+          <div class="expected">
+            <h4>Respuesta esperada <span class="pill" id="qId"></span></h4>
+            <p id="qExpected"></p>
+            <h4>Criterios de aceptación</h4>
+            <p id="qCriteria"></p>
+          </div>
+        </div>
+
+        <div class="primary-actions" id="primaryActions"></div>
+        <p class="kbd-hint">Atajos: <kbd>Espacio</kbd> acción principal · <kbd>C</kbd> correcta · <kbd>I</kbd> incorrecta</p>
+      </div>
+
+      <div class="card secondary">
+        <h3>Controles</h3>
+        <div class="sec-buttons">
+          <button class="btn small wood" id="btnJoin" type="button">Permitir ingresos</button>
+          <button class="btn small wood" id="btnUndo" type="button">Deshacer veredicto</button>
+          <button class="btn small wood" id="btnReopen" type="button">Reabrir subasta</button>
+          <button class="btn small red" id="btnReset" type="button">Reiniciar juego</button>
+          <a class="btn small ghost" href="/proyector" target="_blank" rel="noopener">Abrir proyector ↗</a>
+        </div>
+        <p class="muted small-text" id="joinUrlText"></p>
+      </div>
+
+      <div class="card">
+        <h3>Ventas</h3>
+        <ol class="sales" id="sales"></ol>
+      </div>
+    </section>
+
+    <section class="col side-col">
+      <div class="card">
+        <h3>Equipos <span class="pill" id="teamCount">0</span></h3>
+        <div class="teams-table-wrap">
+          <table class="teams">
+            <thead><tr><th></th><th>#</th><th>Equipo</th><th>Saldo</th><th>🏆</th><th></th></tr></thead>
+            <tbody id="teamsBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Bitácora</h3>
+        <ol class="log" id="log"></ol>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="adjustDialog" class="card dialog">
+    <form method="dialog" id="adjustForm">
+      <h3>Ajustar saldo de <span id="adjName"></span></h3>
+      <p class="muted">Saldo actual: <strong class="money" id="adjBalance"></strong>. Usa un número negativo para restar.</p>
+      <input id="adjDelta" type="text" inputmode="numeric" placeholder="Ej: 100000 o -50000">
+      <div class="row dialog-actions">
+        <button class="btn small ghost" value="cancel" type="button" id="adjCancel">Cancelar</button>
+        <button class="btn small" value="ok" type="submit">Aplicar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="resetDialog" class="card dialog">
+    <form method="dialog" id="resetForm">
+      <h3>Reiniciar juego</h3>
+      <p>Se vuelve al lobby, se conservan los equipos conectados y todos quedan otra vez con $2.000.000. Las ventas se borran.</p>
+      <p>Escribe <strong>REINICIAR</strong> para confirmar:</p>
+      <input id="resetInput" type="text" autocomplete="off">
+      <div class="row dialog-actions">
+        <button class="btn small ghost" type="button" id="resetCancel">Cancelar</button>
+        <button class="btn small red" type="submit">Reiniciar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/panel.js"></script>
+</body>
+</html>
