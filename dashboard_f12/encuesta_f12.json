@@ -1,0 +1,2955 @@
+{
+ "preguntas": [
+  {
+   "p": "P1",
+   "pregunta": "¿Vive en Bucaramanga o su área metropolitana?",
+   "tipo": "única",
+   "opcion": "Sí",
+   "n": 78,
+   "pct": 100.0,
+   "orden": 1
+  },
+  {
+   "p": "P1",
+   "pregunta": "¿Vive en Bucaramanga o su área metropolitana?",
+   "tipo": "única",
+   "opcion": "No",
+   "n": 0,
+   "pct": 0.0,
+   "orden": 2
+  },
+  {
+   "p": "P2",
+   "pregunta": "¿Consume contenidos deportivos en redes o plataformas digitales?",
+   "tipo": "única",
+   "opcion": "Sí",
+   "n": 78,
+   "pct": 100.0,
+   "orden": 1
+  },
+  {
+   "p": "P2",
+   "pregunta": "¿Consume contenidos deportivos en redes o plataformas digitales?",
+   "tipo": "única",
+   "opcion": "No",
+   "n": 0,
+   "pct": 0.0,
+   "orden": 2
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "Instagram",
+   "n": 53,
+   "pct": 67.9,
+   "orden": 1
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "TikTok",
+   "n": 42,
+   "pct": 53.8,
+   "orden": 2
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "Facebook",
+   "n": 36,
+   "pct": 46.2,
+   "orden": 3
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "Radio",
+   "n": 11,
+   "pct": 14.1,
+   "orden": 4
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "X (Twitter)",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 5
+  },
+  {
+   "p": "P3",
+   "pregunta": "¿En cuáles redes, plataformas o medios consume contenido deportivo?",
+   "tipo": "múltiple",
+   "opcion": "Otros",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 6
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "Instagram",
+   "n": 37,
+   "pct": 47.4,
+   "orden": 1
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "Facebook",
+   "n": 32,
+   "pct": 41.0,
+   "orden": 2
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "TikTok",
+   "n": 31,
+   "pct": 39.7,
+   "orden": 3
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "Radio",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 4
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "X (Twitter)",
+   "n": 5,
+   "pct": 6.4,
+   "orden": 5
+  },
+  {
+   "p": "P4",
+   "pregunta": "¿Cuál utiliza con mayor frecuencia?",
+   "tipo": "única",
+   "opcion": "Otros",
+   "n": 2,
+   "pct": 2.6,
+   "orden": 6
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Transmisiones en vivo",
+   "n": 36,
+   "pct": 46.2,
+   "orden": 1
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Resúmenes del partido",
+   "n": 28,
+   "pct": 35.9,
+   "orden": 2
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Análisis de partidos y jugadas",
+   "n": 27,
+   "pct": 34.6,
+   "orden": 3
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Noticias deportivas",
+   "n": 26,
+   "pct": 33.3,
+   "orden": 4
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Debates y programas de opinión",
+   "n": 25,
+   "pct": 32.1,
+   "orden": 5
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Clips o videos cortos",
+   "n": 24,
+   "pct": 30.8,
+   "orden": 6
+  },
+  {
+   "p": "P5",
+   "pregunta": "¿Qué formatos son de mayor interés? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Entrevistas",
+   "n": 20,
+   "pct": 25.6,
+   "orden": 7
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "Menos de 1 min",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 1
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "1 a 2 min",
+   "n": 23,
+   "pct": 29.5,
+   "orden": 2
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "5 a 15 min",
+   "n": 20,
+   "pct": 25.6,
+   "orden": 3
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "15 a 30 min",
+   "n": 11,
+   "pct": 14.1,
+   "orden": 4
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "Más de 30 min",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 5
+  },
+  {
+   "p": "P6",
+   "pregunta": "¿Qué duración prefiere en redes?",
+   "tipo": "única",
+   "opcion": "Me es indiferente",
+   "n": 11,
+   "pct": 14.1,
+   "orden": 6
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Atlético Bucaramanga",
+   "n": 39,
+   "pct": 50.0,
+   "orden": 1
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Fútbol colombiano",
+   "n": 38,
+   "pct": 48.7,
+   "orden": 2
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Fútbol internacional",
+   "n": 33,
+   "pct": 42.3,
+   "orden": 3
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Selección Colombia",
+   "n": 30,
+   "pct": 38.5,
+   "orden": 4
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Otros deportes",
+   "n": 13,
+   "pct": 16.7,
+   "orden": 5
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Fútbol femenino",
+   "n": 10,
+   "pct": 12.8,
+   "orden": 6
+  },
+  {
+   "p": "P7",
+   "pregunta": "¿Qué contenidos deportivos le interesan más? (máx. 3)",
+   "tipo": "múltiple",
+   "opcion": "Otros",
+   "n": 1,
+   "pct": 1.3,
+   "orden": 7
+  },
+  {
+   "p": "P9",
+   "pregunta": "¿Qué tan importante es poder participar o interactuar con un programa deportivo?",
+   "tipo": "escala",
+   "opcion": "Nada importante",
+   "n": 10,
+   "pct": 12.8,
+   "orden": 1
+  },
+  {
+   "p": "P9",
+   "pregunta": "¿Qué tan importante es poder participar o interactuar con un programa deportivo?",
+   "tipo": "escala",
+   "opcion": "Poco importante",
+   "n": 13,
+   "pct": 16.7,
+   "orden": 2
+  },
+  {
+   "p": "P9",
+   "pregunta": "¿Qué tan importante es poder participar o interactuar con un programa deportivo?",
+   "tipo": "escala",
+   "opcion": "Me es indiferente",
+   "n": 28,
+   "pct": 35.9,
+   "orden": 3
+  },
+  {
+   "p": "P9",
+   "pregunta": "¿Qué tan importante es poder participar o interactuar con un programa deportivo?",
+   "tipo": "escala",
+   "opcion": "Importante",
+   "n": 24,
+   "pct": 30.8,
+   "orden": 4
+  },
+  {
+   "p": "P9",
+   "pregunta": "¿Qué tan importante es poder participar o interactuar con un programa deportivo?",
+   "tipo": "escala",
+   "opcion": "Muy importante",
+   "n": 3,
+   "pct": 3.8,
+   "orden": 5
+  },
+  {
+   "p": "P10",
+   "pregunta": "Antes de la encuesta, ¿había visto o escuchado F12 Radio TV?",
+   "tipo": "única",
+   "opcion": "Sí",
+   "n": 23,
+   "pct": 29.5,
+   "orden": 1
+  },
+  {
+   "p": "P10",
+   "pregunta": "Antes de la encuesta, ¿había visto o escuchado F12 Radio TV?",
+   "tipo": "única",
+   "opcion": "No",
+   "n": 55,
+   "pct": 70.5,
+   "orden": 2
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "No recuerdo",
+   "n": 46,
+   "pct": 59.0,
+   "orden": 1
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Noticias deportivas",
+   "n": 13,
+   "pct": 16.7,
+   "orden": 2
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Entrevistas",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 3
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Análisis de partidos",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 4
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Transmisiones en vivo",
+   "n": 5,
+   "pct": 6.4,
+   "orden": 5
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Videos o clips cortos",
+   "n": 4,
+   "pct": 5.1,
+   "orden": 6
+  },
+  {
+   "p": "P11",
+   "pregunta": "¿Qué contenido de F12 recuerda?",
+   "tipo": "múltiple",
+   "opcion": "Otros",
+   "n": 2,
+   "pct": 2.6,
+   "orden": 7
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Resúmenes de partidos",
+   "n": 14,
+   "pct": 17.9,
+   "orden": 1
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Atlético Bucaramanga",
+   "n": 14,
+   "pct": 17.9,
+   "orden": 2
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Noticias y actualidad",
+   "n": 13,
+   "pct": 16.7,
+   "orden": 3
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Transmisiones en vivo",
+   "n": 11,
+   "pct": 14.1,
+   "orden": 4
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Clips y videos cortos",
+   "n": 8,
+   "pct": 10.3,
+   "orden": 5
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Debate y análisis",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 6
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Otros deportes",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 7
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Entrevistas",
+   "n": 5,
+   "pct": 6.4,
+   "orden": 8
+  },
+  {
+   "p": "P12",
+   "pregunta": "¿Qué contenido de F12 consumiría con más frecuencia?",
+   "tipo": "única",
+   "opcion": "Otros",
+   "n": 1,
+   "pct": 1.3,
+   "orden": 9
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Información más rápida y actualizada",
+   "n": 21,
+   "pct": 26.9,
+   "orden": 1
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más contenido corto",
+   "n": 15,
+   "pct": 19.2,
+   "orden": 2
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Mejor imagen y sonido",
+   "n": 10,
+   "pct": 12.8,
+   "orden": 3
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más debates y análisis",
+   "n": 8,
+   "pct": 10.3,
+   "orden": 4
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más transmisiones en vivo",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 5
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más variedad de deportes",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 6
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más interacción con la audiencia",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 7
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Más entrevistas",
+   "n": 3,
+   "pct": 3.8,
+   "orden": 8
+  },
+  {
+   "p": "P13",
+   "pregunta": "Para mejorar en redes, ¿qué debería priorizar F12?",
+   "tipo": "única",
+   "opcion": "Otros",
+   "n": 1,
+   "pct": 1.3,
+   "orden": 9
+  },
+  {
+   "p": "P14",
+   "pregunta": "¿Qué tan interesado estaría en un programa como F12 en redes?",
+   "tipo": "escala",
+   "opcion": "Muy desinteresado",
+   "n": 4,
+   "pct": 5.1,
+   "orden": 1
+  },
+  {
+   "p": "P14",
+   "pregunta": "¿Qué tan interesado estaría en un programa como F12 en redes?",
+   "tipo": "escala",
+   "opcion": "Desinteresado",
+   "n": 6,
+   "pct": 7.7,
+   "orden": 2
+  },
+  {
+   "p": "P14",
+   "pregunta": "¿Qué tan interesado estaría en un programa como F12 en redes?",
+   "tipo": "escala",
+   "opcion": "Neutral",
+   "n": 18,
+   "pct": 23.1,
+   "orden": 3
+  },
+  {
+   "p": "P14",
+   "pregunta": "¿Qué tan interesado estaría en un programa como F12 en redes?",
+   "tipo": "escala",
+   "opcion": "Interesado",
+   "n": 43,
+   "pct": 55.1,
+   "orden": 4
+  },
+  {
+   "p": "P14",
+   "pregunta": "¿Qué tan interesado estaría en un programa como F12 en redes?",
+   "tipo": "escala",
+   "opcion": "Muy interesado",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 5
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Atlético Bucaramanga",
+   "n": 30,
+   "pct": 38.5,
+   "orden": 1
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Transmisiones y coberturas",
+   "n": 24,
+   "pct": 30.8,
+   "orden": 2
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Entrevistas con jugadores",
+   "n": 24,
+   "pct": 30.8,
+   "orden": 3
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Análisis del fútbol colombiano",
+   "n": 22,
+   "pct": 28.2,
+   "orden": 4
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Fútbol internacional",
+   "n": 21,
+   "pct": 26.9,
+   "orden": 5
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Noticias y resultados",
+   "n": 16,
+   "pct": 20.5,
+   "orden": 6
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Contenido corto para redes",
+   "n": 10,
+   "pct": 12.8,
+   "orden": 7
+  },
+  {
+   "p": "P15",
+   "pregunta": "¿Qué le gustaría encontrar en un medio deportivo local como F12?",
+   "tipo": "múltiple",
+   "opcion": "Otros",
+   "n": 1,
+   "pct": 1.3,
+   "orden": 8
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Más dinámico y entretenido",
+   "n": 25,
+   "pct": 32.1,
+   "orden": 1
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Mayor variedad de contenidos",
+   "n": 18,
+   "pct": 23.1,
+   "orden": 2
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Información más actualizada",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 3
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Mayor interacción",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 4
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Mejor calidad audiovisual",
+   "n": 9,
+   "pct": 11.5,
+   "orden": 5
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Contenido más profundo",
+   "n": 7,
+   "pct": 9.0,
+   "orden": 6
+  },
+  {
+   "p": "P16",
+   "pregunta": "¿Qué aspecto debería priorizar F12 para mejorar?",
+   "tipo": "única",
+   "opcion": "Otros",
+   "n": 1,
+   "pct": 1.3,
+   "orden": 7
+  }
+ ],
+ "atributos": [
+  {
+   "atributo": "Información actualizada",
+   "nada": 3,
+   "poco": 7,
+   "indiferente": 3,
+   "importante": 26,
+   "muy_importante": 39,
+   "positivas": 65,
+   "pct_positivas": 83.3,
+   "media": 4.17
+  },
+  {
+   "atributo": "Calidad de imagen y sonido",
+   "nada": 3,
+   "poco": 8,
+   "indiferente": 6,
+   "importante": 23,
+   "muy_importante": 38,
+   "positivas": 61,
+   "pct_positivas": 78.2,
+   "media": 4.09
+  },
+  {
+   "atributo": "Credibilidad de la información",
+   "nada": 4,
+   "poco": 5,
+   "indiferente": 8,
+   "importante": 28,
+   "muy_importante": 33,
+   "positivas": 61,
+   "pct_positivas": 78.2,
+   "media": 4.04
+  },
+  {
+   "atributo": "Análisis y opinión de calidad",
+   "nada": 4,
+   "poco": 7,
+   "indiferente": 7,
+   "importante": 30,
+   "muy_importante": 30,
+   "positivas": 60,
+   "pct_positivas": 76.9,
+   "media": 3.96
+  },
+  {
+   "atributo": "Interacción con la audiencia",
+   "nada": 5,
+   "poco": 10,
+   "indiferente": 15,
+   "importante": 27,
+   "muy_importante": 21,
+   "positivas": 48,
+   "pct_positivas": 61.5,
+   "media": 3.63
+  }
+ ],
+ "cruces": [
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Transmisiones en vivo",
+   "pct": 37.7
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Resúmenes del partido",
+   "pct": 41.5
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Análisis de partidos",
+   "pct": 32.1
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Noticias deportivas",
+   "pct": 37.7
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Debates y opinión",
+   "pct": 35.8
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Clips o videos cortos",
+   "pct": 45.3
+  },
+  {
+   "cruce": "c1",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Entrevistas",
+   "pct": 26.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Transmisiones en vivo",
+   "pct": 40.5
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Resúmenes del partido",
+   "pct": 52.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Análisis de partidos",
+   "pct": 35.7
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Noticias deportivas",
+   "pct": 28.6
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Debates y opinión",
+   "pct": 31.0
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Clips o videos cortos",
+   "pct": 40.5
+  },
+  {
+   "cruce": "c1",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Entrevistas",
+   "pct": 31.0
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Transmisiones en vivo",
+   "pct": 61.1
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Resúmenes del partido",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Análisis de partidos",
+   "pct": 36.1
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Noticias deportivas",
+   "pct": 41.7
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Debates y opinión",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Clips o videos cortos",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c1",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Entrevistas",
+   "pct": 27.8
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Transmisiones en vivo",
+   "pct": 72.7
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Resúmenes del partido",
+   "pct": 27.3
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Análisis de partidos",
+   "pct": 27.3
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Noticias deportivas",
+   "pct": 54.5
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Debates y opinión",
+   "pct": 36.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Clips o videos cortos",
+   "pct": 27.3
+  },
+  {
+   "cruce": "c1",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Entrevistas",
+   "pct": 36.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Transmisiones en vivo",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Resúmenes del partido",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Análisis de partidos",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Noticias deportivas",
+   "pct": 33.3
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Debates y opinión",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Clips o videos cortos",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c1",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Entrevistas",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c2",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "2 min o menos",
+   "pct": 45.3
+  },
+  {
+   "cruce": "c2",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "5 a 15 min",
+   "pct": 24.5
+  },
+  {
+   "cruce": "c2",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Más de 15 min",
+   "pct": 13.2
+  },
+  {
+   "cruce": "c2",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Indiferente",
+   "pct": 17.0
+  },
+  {
+   "cruce": "c2",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "2 min o menos",
+   "pct": 42.9
+  },
+  {
+   "cruce": "c2",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "5 a 15 min",
+   "pct": 26.2
+  },
+  {
+   "cruce": "c2",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Más de 15 min",
+   "pct": 4.8
+  },
+  {
+   "cruce": "c2",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Indiferente",
+   "pct": 26.2
+  },
+  {
+   "cruce": "c2",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "2 min o menos",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c2",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "5 a 15 min",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c2",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Más de 15 min",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c2",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Indiferente",
+   "pct": 8.3
+  },
+  {
+   "cruce": "c2",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "2 min o menos",
+   "pct": 36.4
+  },
+  {
+   "cruce": "c2",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "5 a 15 min",
+   "pct": 36.4
+  },
+  {
+   "cruce": "c2",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Más de 15 min",
+   "pct": 27.3
+  },
+  {
+   "cruce": "c2",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Indiferente",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c2",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "2 min o menos",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c2",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "5 a 15 min",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c2",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Más de 15 min",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c2",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Indiferente",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Transmisiones en vivo",
+   "pct": 34.5
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Resúmenes del partido",
+   "pct": 31.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Análisis de partidos",
+   "pct": 24.1
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Noticias deportivas",
+   "pct": 37.9
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Debates y opinión",
+   "pct": 44.8
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Clips o videos cortos",
+   "pct": 51.7
+  },
+  {
+   "cruce": "c3",
+   "fila": "2 min o menos",
+   "n_fila": 29,
+   "columna": "Entrevistas",
+   "pct": 27.6
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Transmisiones en vivo",
+   "pct": 35.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Resúmenes del partido",
+   "pct": 50.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Análisis de partidos",
+   "pct": 45.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Noticias deportivas",
+   "pct": 50.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Debates y opinión",
+   "pct": 30.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Clips o videos cortos",
+   "pct": 5.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "5 a 15 min",
+   "n_fila": 20,
+   "columna": "Entrevistas",
+   "pct": 20.0
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Transmisiones en vivo",
+   "pct": 72.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Resúmenes del partido",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Análisis de partidos",
+   "pct": 33.3
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Noticias deportivas",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Debates y opinión",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Clips o videos cortos",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c3",
+   "fila": "Más de 15 min",
+   "n_fila": 18,
+   "columna": "Entrevistas",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Transmisiones en vivo",
+   "pct": 54.5
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Resúmenes del partido",
+   "pct": 63.6
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Análisis de partidos",
+   "pct": 45.5
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Noticias deportivas",
+   "pct": 18.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Debates y opinión",
+   "pct": 18.2
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Clips o videos cortos",
+   "pct": 45.5
+  },
+  {
+   "cruce": "c3",
+   "fila": "Indiferente",
+   "n_fila": 11,
+   "columna": "Entrevistas",
+   "pct": 36.4
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Transmisiones en vivo",
+   "pct": 47.8
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Resúmenes del partido",
+   "pct": 52.2
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Análisis de partidos",
+   "pct": 47.8
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Noticias deportivas",
+   "pct": 30.4
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Debates y opinión",
+   "pct": 34.8
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Clips o videos cortos",
+   "pct": 43.5
+  },
+  {
+   "cruce": "c4",
+   "fila": "Poco o nada importante",
+   "n_fila": 23,
+   "columna": "Entrevistas",
+   "pct": 34.8
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Transmisiones en vivo",
+   "pct": 39.3
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Resúmenes del partido",
+   "pct": 39.3
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Análisis de partidos",
+   "pct": 25.0
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Noticias deportivas",
+   "pct": 39.3
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Debates y opinión",
+   "pct": 32.1
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Clips o videos cortos",
+   "pct": 28.6
+  },
+  {
+   "cruce": "c4",
+   "fila": "Indiferente",
+   "n_fila": 28,
+   "columna": "Entrevistas",
+   "pct": 7.1
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Transmisiones en vivo",
+   "pct": 51.9
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Resúmenes del partido",
+   "pct": 18.5
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Análisis de partidos",
+   "pct": 33.3
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Noticias deportivas",
+   "pct": 29.6
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Debates y opinión",
+   "pct": 29.6
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Clips o videos cortos",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c4",
+   "fila": "Importante o muy importante",
+   "n_fila": 27,
+   "columna": "Entrevistas",
+   "pct": 37.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Resúmenes de partidos",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Atlético Bucaramanga",
+   "pct": 30.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Noticias y actualidad",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Transmisiones en vivo",
+   "pct": 30.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Clips y videos cortos",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Debate y análisis",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Otros deportes",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Entrevistas",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Desinteresado",
+   "n_fila": 10,
+   "columna": "Otros",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Resúmenes de partidos",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Atlético Bucaramanga",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Noticias y actualidad",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Transmisiones en vivo",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Clips y videos cortos",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Debate y análisis",
+   "pct": 5.6
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Otros deportes",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Entrevistas",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Neutral",
+   "n_fila": 18,
+   "columna": "Otros",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Resúmenes de partidos",
+   "pct": 22.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Atlético Bucaramanga",
+   "pct": 18.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Noticias y actualidad",
+   "pct": 20.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Transmisiones en vivo",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Clips y videos cortos",
+   "pct": 8.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Debate y análisis",
+   "pct": 8.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Otros deportes",
+   "pct": 6.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Entrevistas",
+   "pct": 8.0
+  },
+  {
+   "cruce": "c5",
+   "fila": "Interesado",
+   "n_fila": 50,
+   "columna": "Otros",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Información más rápida",
+   "pct": 35.9
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más contenido corto",
+   "pct": 17.9
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Mejor imagen y sonido",
+   "pct": 17.9
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más debates y análisis",
+   "pct": 12.8
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más transmisiones",
+   "pct": 5.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más variedad de deportes",
+   "pct": 2.6
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más interacción",
+   "pct": 2.6
+  },
+  {
+   "cruce": "c6",
+   "fila": "Atlético Bucaramanga",
+   "n_fila": 39,
+   "columna": "Más entrevistas",
+   "pct": 2.6
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Información más rápida",
+   "pct": 31.6
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más contenido corto",
+   "pct": 18.4
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Mejor imagen y sonido",
+   "pct": 7.9
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más debates y análisis",
+   "pct": 10.5
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más transmisiones",
+   "pct": 10.5
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más variedad de deportes",
+   "pct": 5.3
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más interacción",
+   "pct": 10.5
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol colombiano",
+   "n_fila": 38,
+   "columna": "Más entrevistas",
+   "pct": 2.6
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Información más rápida",
+   "pct": 24.2
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más contenido corto",
+   "pct": 15.2
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Mejor imagen y sonido",
+   "pct": 21.2
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más debates y análisis",
+   "pct": 12.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más transmisiones",
+   "pct": 6.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más variedad de deportes",
+   "pct": 12.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más interacción",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol internacional",
+   "n_fila": 33,
+   "columna": "Más entrevistas",
+   "pct": 6.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Información más rápida",
+   "pct": 36.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más contenido corto",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Mejor imagen y sonido",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más debates y análisis",
+   "pct": 6.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más transmisiones",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más variedad de deportes",
+   "pct": 6.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más interacción",
+   "pct": 6.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Selección Colombia",
+   "n_fila": 30,
+   "columna": "Más entrevistas",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Información más rápida",
+   "pct": 30.8
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más contenido corto",
+   "pct": 23.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Mejor imagen y sonido",
+   "pct": 7.7
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más debates y análisis",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más transmisiones",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más variedad de deportes",
+   "pct": 23.1
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más interacción",
+   "pct": 15.4
+  },
+  {
+   "cruce": "c6",
+   "fila": "Otros deportes",
+   "n_fila": 13,
+   "columna": "Más entrevistas",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Información más rápida",
+   "pct": 60.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más contenido corto",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Mejor imagen y sonido",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más debates y análisis",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más transmisiones",
+   "pct": 10.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más variedad de deportes",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más interacción",
+   "pct": 20.0
+  },
+  {
+   "cruce": "c6",
+   "fila": "Fútbol femenino",
+   "n_fila": 10,
+   "columna": "Más entrevistas",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Resúmenes de partidos",
+   "pct": 18.9
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Atlético Bucaramanga",
+   "pct": 17.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Noticias y actualidad",
+   "pct": 15.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Transmisiones en vivo",
+   "pct": 9.4
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Clips y videos cortos",
+   "pct": 13.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Debate y análisis",
+   "pct": 9.4
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Otros deportes",
+   "pct": 11.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Instagram",
+   "n_fila": 53,
+   "columna": "Entrevistas",
+   "pct": 3.8
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Resúmenes de partidos",
+   "pct": 23.8
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Atlético Bucaramanga",
+   "pct": 26.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Noticias y actualidad",
+   "pct": 19.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Transmisiones en vivo",
+   "pct": 4.8
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Clips y videos cortos",
+   "pct": 14.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Debate y análisis",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Otros deportes",
+   "pct": 4.8
+  },
+  {
+   "cruce": "c7",
+   "fila": "TikTok",
+   "n_fila": 42,
+   "columna": "Entrevistas",
+   "pct": 7.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Resúmenes de partidos",
+   "pct": 8.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Atlético Bucaramanga",
+   "pct": 16.7
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Noticias y actualidad",
+   "pct": 19.4
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Transmisiones en vivo",
+   "pct": 19.4
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Clips y videos cortos",
+   "pct": 8.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Debate y análisis",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Otros deportes",
+   "pct": 8.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Facebook",
+   "n_fila": 36,
+   "columna": "Entrevistas",
+   "pct": 8.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Resúmenes de partidos",
+   "pct": 18.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Atlético Bucaramanga",
+   "pct": 18.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Noticias y actualidad",
+   "pct": 9.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Transmisiones en vivo",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Clips y videos cortos",
+   "pct": 9.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Debate y análisis",
+   "pct": 27.3
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Otros deportes",
+   "pct": 18.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "Radio",
+   "n_fila": 11,
+   "columna": "Entrevistas",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Resúmenes de partidos",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Atlético Bucaramanga",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Noticias y actualidad",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Transmisiones en vivo",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Clips y videos cortos",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Debate y análisis",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Otros deportes",
+   "pct": 0.0
+  },
+  {
+   "cruce": "c7",
+   "fila": "X (Twitter)",
+   "n_fila": 9,
+   "columna": "Entrevistas",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Atlético Bucaramanga",
+   "pct": 41.7
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Transmisiones y coberturas",
+   "pct": 52.8
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Entrevistas con jugadores",
+   "pct": 33.3
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 25.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Fútbol internacional",
+   "pct": 36.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Noticias y resultados",
+   "pct": 30.6
+  },
+  {
+   "cruce": "c8",
+   "fila": "Transmisiones en vivo",
+   "n_fila": 36,
+   "columna": "Contenido corto",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Atlético Bucaramanga",
+   "pct": 53.6
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Transmisiones y coberturas",
+   "pct": 32.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Entrevistas con jugadores",
+   "pct": 39.3
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 39.3
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Fútbol internacional",
+   "pct": 35.7
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Noticias y resultados",
+   "pct": 25.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Resúmenes del partido",
+   "n_fila": 28,
+   "columna": "Contenido corto",
+   "pct": 14.3
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Atlético Bucaramanga",
+   "pct": 44.4
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Transmisiones y coberturas",
+   "pct": 25.9
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Entrevistas con jugadores",
+   "pct": 22.2
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 40.7
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Fútbol internacional",
+   "pct": 29.6
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Noticias y resultados",
+   "pct": 25.9
+  },
+  {
+   "cruce": "c8",
+   "fila": "Análisis de partidos",
+   "n_fila": 27,
+   "columna": "Contenido corto",
+   "pct": 11.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Atlético Bucaramanga",
+   "pct": 30.8
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Transmisiones y coberturas",
+   "pct": 23.1
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Entrevistas con jugadores",
+   "pct": 26.9
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 30.8
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Fútbol internacional",
+   "pct": 30.8
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Noticias y resultados",
+   "pct": 26.9
+  },
+  {
+   "cruce": "c8",
+   "fila": "Noticias deportivas",
+   "n_fila": 26,
+   "columna": "Contenido corto",
+   "pct": 19.2
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Atlético Bucaramanga",
+   "pct": 36.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Transmisiones y coberturas",
+   "pct": 20.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Entrevistas con jugadores",
+   "pct": 28.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 44.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Fútbol internacional",
+   "pct": 36.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Noticias y resultados",
+   "pct": 20.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Debates y opinión",
+   "n_fila": 25,
+   "columna": "Contenido corto",
+   "pct": 8.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Atlético Bucaramanga",
+   "pct": 54.2
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Transmisiones y coberturas",
+   "pct": 37.5
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Entrevistas con jugadores",
+   "pct": 41.7
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 33.3
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Fútbol internacional",
+   "pct": 25.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Noticias y resultados",
+   "pct": 20.8
+  },
+  {
+   "cruce": "c8",
+   "fila": "Clips o videos cortos",
+   "n_fila": 24,
+   "columna": "Contenido corto",
+   "pct": 12.5
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Atlético Bucaramanga",
+   "pct": 35.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Transmisiones y coberturas",
+   "pct": 30.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Entrevistas con jugadores",
+   "pct": 60.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Análisis fútbol colombiano",
+   "pct": 40.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Fútbol internacional",
+   "pct": 40.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Noticias y resultados",
+   "pct": 30.0
+  },
+  {
+   "cruce": "c8",
+   "fila": "Entrevistas",
+   "n_fila": 20,
+   "columna": "Contenido corto",
+   "pct": 5.0
+  }
+ ],
+ "cruces_meta": [
+  {
+   "cruce": "c1",
+   "grupo": "Generales",
+   "titulo": "Plataforma × formato preferido",
+   "filas": "Plataforma donde consume (P3)",
+   "columnas": "Formato de mayor interés (P5)",
+   "prueba": "Descriptivo",
+   "hallazgo": "Cada red tiene su formato: en Facebook manda la transmisión en vivo (61,1 %), en Instagram los clips (45,3 %) y en TikTok los resúmenes (52,4 %)."
+  },
+  {
+   "cruce": "c2",
+   "grupo": "Generales",
+   "titulo": "Plataforma × duración preferida",
+   "filas": "Plataforma donde consume (P3)",
+   "columnas": "Duración preferida (P6)",
+   "prueba": "χ² TikTok: 23,46; p < ,001; V = ,55 · Instagram: 10,95; p = ,012; V = ,37",
+   "hallazgo": "En TikTok e Instagram gana lo corto (2 min o menos). Facebook se reparte por igual entre corto, medio y largo: es la red del formato largo."
+  },
+  {
+   "cruce": "c3",
+   "grupo": "Generales",
+   "titulo": "Duración × formato preferido",
+   "filas": "Duración preferida (P6)",
+   "columnas": "Formato de mayor interés (P5)",
+   "prueba": "χ² clips: 15,01; p = ,002; V = ,44 · resúmenes: 10,51; p = ,015",
+   "hallazgo": "Duración y formato van de la mano: clips para lo corto, resúmenes y noticias de 5 a 15 min, transmisiones para lo largo (72,2 %)."
+  },
+  {
+   "cruce": "c4",
+   "grupo": "Generales",
+   "titulo": "Importancia de interactuar × formato",
+   "filas": "Importancia de interactuar (P9)",
+   "columnas": "Formato de mayor interés (P5)",
+   "prueba": "χ² resúmenes: 6,33; p = ,042 · entrevistas: 7,87; p = ,020",
+   "hallazgo": "Quien valora interactuar (34,6 %) busca transmisiones en vivo y entrevistas; quien no, prefiere resúmenes y análisis bajo demanda."
+  },
+  {
+   "cruce": "c5",
+   "grupo": "F12",
+   "titulo": "Interés en F12 × contenido que consumiría",
+   "filas": "Interés en un programa como F12 (P14)",
+   "columnas": "Contenido de F12 que consumiría (P12)",
+   "prueba": "χ² no válido (81 % de celdas con esperado < 5): se lee descriptivo",
+   "hallazgo": "Los interesados quieren informarse; los neutrales responden a clips (22,2 %); incluso los desinteresados entrarían por el Atlético o el partido en vivo (30 % cada uno)."
+  },
+  {
+   "cruce": "c6",
+   "grupo": "F12",
+   "titulo": "Contenido de interés × qué mejorar",
+   "filas": "Contenido de mayor interés (P7)",
+   "columnas": "Qué debería priorizar F12 (P13)",
+   "prueba": "Descriptivo",
+   "hallazgo": "Publicar más rápido es la primera prioridad en todos los grupos; entre los hinchas del Atlético llega al 35,9 %."
+  },
+  {
+   "cruce": "c7",
+   "grupo": "F12",
+   "titulo": "Plataforma × contenido de F12 que consumiría",
+   "filas": "Plataforma donde consume (P3)",
+   "columnas": "Contenido de F12 que consumiría (P12)",
+   "prueba": "Descriptivo",
+   "hallazgo": "El Atlético Bucaramanga está entre las tres primeras opciones en todas las redes; en TikTok es la primera (26,2 %)."
+  },
+  {
+   "cruce": "c8",
+   "grupo": "F12",
+   "titulo": "Formato preferido × contenido deseado en un medio local",
+   "filas": "Formato de mayor interés (P5)",
+   "columnas": "Contenido deseado en un medio local (P15)",
+   "prueba": "Descriptivo",
+   "hallazgo": "Cada formato tiene su público: 60 % de quienes prefieren entrevistas pide entrevistas con jugadores, y el Atlético es lo más pedido por quienes prefieren clips (54,2 %)."
+  }
+ ],
+ "depuracion": [
+  {
+   "etapa": "Encuestas recibidas",
+   "n": 137,
+   "orden": 1
+  },
+  {
+   "etapa": "Vacías",
+   "n": -4,
+   "orden": 2
+  },
+  {
+   "etapa": "Incoherentes",
+   "n": -11,
+   "orden": 3
+  },
+  {
+   "etapa": "Incompletas",
+   "n": -44,
+   "orden": 4
+  },
+  {
+   "etapa": "Encuestas válidas",
+   "n": 78,
+   "orden": 5
+  }
+ ],
+ "hipotesis": [
+  {
+   "h": "H1",
+   "enunciado": "La preferencia por formatos audiovisuales e interactivos cambia entre grupos de edad.",
+   "prueba": "No aplicable",
+   "resultado": "El cuestionario no midió la edad",
+   "decision": "No se puede contrastar"
+  },
+  {
+   "h": "H2",
+   "enunciado": "La afinidad con el Atlético Bucaramanga se relaciona con la preferencia por contenidos locales.",
+   "prueba": "χ² de independencia (P7 × P15 y P7 × P12)",
+   "resultado": "χ²(1) = 23,89; p < ,001; V = ,55 · χ²(1) = 7,05; p = ,008; V = ,30",
+   "decision": "Se acepta"
+  },
+  {
+   "h": "H3",
+   "enunciado": "La credibilidad del contenido se relaciona con la satisfacción con F12.",
+   "prueba": "Spearman entre credibilidad (P8) e interés en F12 (P14)",
+   "resultado": "ρ = ,04; p = ,732",
+   "decision": "Sin evidencia a favor"
+  }
+ ],
+ "h2": [
+  {
+   "grupo": "Siguen al Atlético (n = 39)",
+   "pide_local": 66.7,
+   "consumiria_atletico": 30.8
+  },
+  {
+   "grupo": "No lo señalaron (n = 39)",
+   "pide_local": 10.3,
+   "consumiria_atletico": 5.1
+  }
+ ],
+ "objetivos": [
+  {
+   "n": 1,
+   "objetivo": "Plataformas",
+   "hallazgo": "Instagram (67,9 %), TikTok y Facebook; cada una con una función distinta.",
+   "estado": "Cumplido"
+  },
+  {
+   "n": 2,
+   "objetivo": "Formatos",
+   "hallazgo": "Transmisiones en vivo, resúmenes, análisis y noticias; videos de 1–2 y 5–15 min.",
+   "estado": "Cumplido en formato y duración"
+  },
+  {
+   "n": 3,
+   "objetivo": "Temáticas",
+   "hallazgo": "Atlético Bucaramanga (50 %) y fútbol colombiano (48,7 %) a la cabeza.",
+   "estado": "Cumplido"
+  },
+  {
+   "n": 4,
+   "objetivo": "Atributos",
+   "hallazgo": "Información actualizada (4,17) arriba; interacción (3,63) abajo.",
+   "estado": "Cumplido"
+  },
+  {
+   "n": 5,
+   "objetivo": "Recomendaciones",
+   "hallazgo": "Nueve recomendaciones ordenadas por prioridad.",
+   "estado": "Cumplido"
+  }
+ ],
+ "recomendaciones": [
+  {
+   "n": 1,
+   "titulo": "Hacer de la visibilidad de marca la primera prioridad",
+   "dato": "70,5 % no conocía F12",
+   "detalle": "Logo y nombre en los primeros segundos de cada video, entrada y cierre sonoros fijos, plantillas con los mismos colores y tipografía, el mismo usuario en todas las redes y pauta segmentada en el área metropolitana."
+  },
+  {
+   "n": 2,
+   "titulo": "Convertir al Atlético Bucaramanga en el eje de la programación",
+   "dato": "50 % lo elige como tema de interés",
+   "detalle": "Agenda fija por partido: previa el día anterior, cobertura o transmisión, resumen y análisis al final, y entrevistas con jugadores y cuerpo técnico en la semana."
+  },
+  {
+   "n": 3,
+   "titulo": "Publicar más rápido",
+   "dato": "4,17 / 5 en información actualizada",
+   "detalle": "Tiempos máximos: resultado y goles minutos después del pitazo, resumen pocas horas después. Ser el primero en informar sobre el Atlético refuerza la recordación."
+  },
+  {
+   "n": 4,
+   "titulo": "Adaptar el contenido a cada plataforma",
+   "dato": "61,1 % de Facebook prefiere el en vivo",
+   "detalle": "TikTok e Instagram: resúmenes, clips y noticias de 2 min o menos. Facebook: transmisiones y programas largos. YouTube: programas completos y entrevistas."
+  },
+  {
+   "n": 5,
+   "titulo": "Producir en tres duraciones",
+   "dato": "44,8 % de quien prefiere lo corto elige debates",
+   "detalle": "Clips de menos de 2 min, piezas de 5 a 15 min (resúmenes, noticias, análisis) y contenidos de más de 15 min (transmisiones y programas)."
+  },
+  {
+   "n": 6,
+   "titulo": "Hacer el contenido más dinámico y variado",
+   "dato": "55,1 % pide más dinamismo o variedad",
+   "detalle": "Secciones fijas y cortas como la jugada de la semana, retos o datos curiosos; opinión con imágenes del partido; algo de otros deportes y fútbol femenino."
+  },
+  {
+   "n": 7,
+   "titulo": "Concentrar la interacción en las transmisiones en vivo",
+   "dato": "Media de 2,96 / 5 en interacción",
+   "detalle": "Leer y responder comentarios, encuestas durante el partido y preguntas del público para los entrevistados, en lugar de pedir participación en todo."
+  },
+  {
+   "n": 8,
+   "titulo": "Cuidar la calidad y la credibilidad",
+   "dato": "4,09 imagen y sonido · 4,04 credibilidad",
+   "detalle": "Buen micrófono, buena luz y formato vertical; verificar antes de publicar y citar las fuentes, sin perder rapidez."
+  },
+  {
+   "n": 9,
+   "titulo": "Medir los resultados y repetir el estudio",
+   "dato": "H1 y H3 quedaron pendientes",
+   "detalle": "Seguir alcance, visualizaciones, tiempo de visualización y seguidores en Bucaramanga; en la próxima medición, preguntar edad, género, estrato, ocupación y satisfacción con F12."
+  }
+ ]
+}
